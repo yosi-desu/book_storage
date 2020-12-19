@@ -6,10 +6,9 @@
     <select id="findById" resultType="com.example.demo.entity.Book">
         SELECT
            id,
-           book_name,
-           volume_num,
-           author_name,
-           published_date
+           bookName,
+           volumeNum,
+           authorName
         FROM
           booktable
         WHERE
@@ -18,10 +17,9 @@
     <select id="findAll" resultType="com.example.demo.entity.Book">
         SELECT
            id,
-           book_name,
-           volume_num,
-           author_name,
-           published_date
+           bookName,
+           volumeNum,
+           authorName
         FROM
           booktable
     </select>

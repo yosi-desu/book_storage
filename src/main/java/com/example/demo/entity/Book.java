@@ -10,5 +10,4 @@ public class Book {
     private String bookName;
     private Integer volumeNum;
     private String authorName;
-    private LocalDate publishedDate;
 }
